@@ -2,7 +2,7 @@ import logging
 from fastapi import FastAPI, HTTPException
 import pandas as pd
 from car_price_predictor.scripts.model_prediction import predict_price, load_model, load_encoders_and_scaler, preprocess_new_data
-from app.model import PredictionInput, PredictionOutput 
+from fastapi_app.model import PredictionInput, PredictionOutput 
 
 # Initialize the FastAPI app
 app = FastAPI()
