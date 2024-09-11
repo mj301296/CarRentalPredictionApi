@@ -53,13 +53,13 @@ This repository is part of the **Car Rental Front Office Operations** applicatio
     curl -X POST "http://localhost:8000/predict" \
     -H "Content-Type: application/json" \
     -d '{
-        "year": 2020,
+        "year": 2013,
         "make": "Toyota",
         "trim": "LE",
         "body": "Sedan",
         "condition": 4,
         "odometer": 15000.5,
-        "transmission": "Automatic"
+        "transmission": "automatic"
     }'
     ```
 ## For Steps to setup Kubernetes refer Readme of [**Rateshop Frontend**](https://github.com/mj301296/rateshop-frontend):
